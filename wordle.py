@@ -108,11 +108,13 @@ def main():
 
                     if num_tries == 0:
                         print("GAMEOVER!!!! You Are Out Of Turns!!")
+                        print(f"The Word was: {MYSTERY_WORD}")
                     while True:
                         user_input = input("Would You Like To Play Again? (y/n): ")
                         user_input.lower()
                         if user_input == "y":
                             start = True
+                            MYSTERY_WORD = random.choice(WORD_LIST)
                             prev_word.clear()
                             break
                         elif user_input == "n":
@@ -187,11 +189,13 @@ def main():
 
                     if num_tries == 0:
                         print("GAMEOVER!!!! You Are Out Of Turns!!")
+                        print(f"The Word was: {MYSTERY_WORD}")
                     while True:
                         user_input = input("Would You Like To Play Again? (y/n): ")
                         user_input.lower()
                         if user_input == "y":
                             start = True
+                            MYSTERY_WORD = random.choice(WORD_LIST)
                             prev_word.clear()
                             break
                         elif user_input == "n":
@@ -266,11 +270,13 @@ def main():
 
                     if num_tries == 0:
                         print("GAMEOVER!!!! You Are Out Of Turns!!")
+                        print(f"The Word was: {MYSTERY_WORD}")
                     while True:
                         user_input = input("Would You Like To Play Again? (y/n): ")
                         user_input.lower()
                         if user_input == "y":
                             start = True
+                            MYSTERY_WORD = random.choice(WORD_LIST)
                             prev_word.clear()
                             break
                         elif user_input == "n":
@@ -292,3 +298,4 @@ def printline():
              
 if __name__ == "__main__":
     main()
+
