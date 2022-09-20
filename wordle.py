@@ -14,8 +14,8 @@ WORD_LIST = open("wordle_words.txt")
 WORD_LIST = WORD_LIST.read()
 WORD_LIST = WORD_LIST.split()
 
-#MYSTERY_WORD = random.choice(WORD_LIST)
-MYSTERY_WORD = 'shook'
+MYSTERY_WORD = random.choice(WORD_LIST)
+
 
 def main():
     num_tries = 0
