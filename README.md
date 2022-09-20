@@ -13,5 +13,6 @@
 # Footage
 [2022-09-20 00-15-46.webm](https://user-images.githubusercontent.com/88134569/191174624-e8b01818-a678-414a-aa86-a0067ae0c728.webm)
 
-
+# Upcoming Release:
+I am very proud with this work. I will keep on improving it. The next release Is going to be a GUI based Wordle. I still have to decide on wether I am going to use the pygame module like dodger or make it into a cross platform app with react native. altough more work, think the later sounds perfect. Stay Tuned!
 
